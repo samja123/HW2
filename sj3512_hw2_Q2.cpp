@@ -1,7 +1,7 @@
 #include <iostream>
 #include<cmath>
 #include<string>
-#include <iostream>
+
 using namespace std;
 
 const int CENTS_IN_A_DOLLAR = 100;
@@ -20,7 +20,7 @@ int main() {
     int centsLeft2;
     int centsLeft3;
 
-    cout<<"Please enter in the amount in the ";
+    cout<<"Please enter your amount in the ";
     cout<<"format of dollars and cents separated by a space: "<<endl;
     cin>>dollars>>cents;
     cout<<dollars<<" dollars and "<<cents<<" cents are: "<<endl;
