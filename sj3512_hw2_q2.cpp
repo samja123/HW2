@@ -31,7 +31,7 @@ int main() {
     dimes = centsLeft1 / VALUE_OF_DIME;
     centsLeft2 = centsLeft1 - (dimes * VALUE_OF_DIME);
     nickels = centsLeft2 / VALUE_OF_NICKEL;
-    centsLeft3 = centsLeft2 - (nickels*VALUE_OF_NICKEL);
+    centsLeft3 = centsLeft2 - (nickels * VALUE_OF_NICKEL);
     pennies = centsLeft3 / VALUE_OF_PENNY;
 
     cout<<quarters<<" quarters, "<<dimes<<" dimes, "<<nickels<<" nickels and "<<pennies<<" pennies"<<endl;
